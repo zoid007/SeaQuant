@@ -1,0 +1,60 @@
+export const rows = [
+    {
+        id: '1',
+        name: 'Viltautas Lillia',
+        rule: '2023-04-17',
+        Status: 'Starting',
+        other: 'NYSE',
+        example: '1M',
+    },
+    {
+        id: '2',
+        name: 'Ocean Lebohang',
+        rule: '2023-06-29',
+        status: 'Active',
+        other: 'S&P 500',
+        example: '3Y',
+    },
+    {
+        id: 'load-balancer-3',
+        name: 'Matrix Dynamic AI',
+        rule: '2023-07-12',
+        status: 'Disabled',
+        other: 'NIFTY200',
+        example: '10Y',
+    },
+    {
+        id: 'load-balancer-4',
+        name: 'Leverage clicks-and-mortar ROI',
+        rule: '2023-07-13',
+        status: 'Disabled',
+        other: 'NSE EQ',
+        example: '5Y',
+    },
+    {
+        id: 'load-balancer-5',
+        name: 'BBand Blast Breakout',
+        rule: '2023-09-27',
+        status: 'Disabled',
+        other: 'Test',
+        example: '6M',
+    },
+    {
+        id: 'load-balancer-6',
+        name: 'Power Earning Gap UP',
+        rule: '2023-07-13',
+        status: 'Disabled',
+        other: 'SGX',
+        example: '10D',
+    },
+    {
+        id: 'load-balancer-7',
+        name: 'Trend Reversal',
+        rule: '2023-07-13',
+        status: 'Disabled',
+        other: 'S&P 500',
+        example: '3M',
+    },
+];
+export const headers = ['Name', 'Type', 'Date Created', 'Direction', 'Shared'];
+export const headersBacktest = ['Name', 'From Date', 'To Date', 'Symbol', 'Initial Cash'];

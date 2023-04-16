@@ -1,0 +1,102 @@
+@use '@carbon/layout';
+.App-box {
+
+  margin-left: layout.$spacing-13;
+  margin-top: layout.$spacing-12;
+  padding-right: layout.$spacing-09;
+  padding-left: layout.$spacing-13;
+  margin-right: layout.$spacing-09;
+
+
+}
+
+.App-heading {
+
+  // padding-top: layout.$spacing-05;
+  // font-size: 2rem;
+  // padding-left: 0rem !important;
+  // margin-left: -1rem !important;
+
+  // width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px 10%;
+}
+
+// .App-header-section {
+
+//   padding-top: layout.$spacing-05;
+
+
+// }
+
+.App-content {
+
+  padding-top: 1rem;
+  margin-top: 1rem;
+
+}
+
+.Drag-and-Drop-Block {
+
+  display: block;
+
+}
+
+.Drag-and-Drop-filter {
+
+  display: inline-flex;
+  align-items: center;
+  padding-top: 30px 10%;
+  margin-top: 1%;
+  background-color: var(--cds-layer-01, #f4f4f4);
+  
+}
+
+.Drag-and-Drop-sub-filter {
+
+  display: inline-flex;
+  align-items: center;
+  padding-top: 30px 10%;
+  margin-top: 1%;
+  margin-left: 4rem;
+  background-color: var(--cds-layer-01, #f4f4f4);
+  
+}
+
+.Drag-and-Drop-sub-filter:after {
+  background: #ff0000;
+} 
+
+.Drag-and-Drop-sub-filter-lvl-2 {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 30px 10%;
+  margin-top: 1%;
+  margin-left: 8rem;
+  background-color: var(--cds-layer-01, #f4f4f4);
+}
+
+.cds--dropdown__wrapper--inline {
+  grid-gap: 0 0rem !important;
+
+}
+
+.cds--overflow-menu__icon {
+  fill: white
+}
+
+.black-icon {
+  fill: #000000
+}
+
+.login-container{
+  padding: 4rem 32rem;
+}
+
+
+.page-container{
+  padding: 4rem 32rem;
+}

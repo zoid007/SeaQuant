@@ -1,0 +1,31 @@
+{
+  "name": "vite",
+  "private": true,
+  "version": "0.24.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "host": "vite --host"
+  },
+  "dependencies": {
+    "@carbon/charts": "^1.6.14",
+    "@carbon/charts-react": "^1.6.14",
+    "@carbon/icons-react": "^11.17.0",
+    "@carbon/react": "^1.26.0",
+    "axios": "^1.3.5",
+    "gapi-script": "^1.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-google-login": "^5.2.2",
+    "react-router-dom": "^6.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "1.1.3",
+    "autoprefixer": "^10.4.14",
+    "sass": "^1.51.0",
+    "vite": "^2.9.15"
+  }
+}
