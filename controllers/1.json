@@ -1,0 +1,70 @@
+[
+    {
+        "id": 0,
+        "type": "filter",
+        "Operation": "ca",
+        "Action": "Long_Entry",
+        "Operand": {
+            "OperandType": "indicator",
+            "StockAttribute": {
+                "Timeframe": "1M"
+            },
+            "Indicators": {
+                "Timeframe": "1M",
+                "Variables": [
+                    14
+                ],
+                "Attribute": "rsi"
+            },
+            "Math": {
+                "StockAttribute": {},
+                "Indicators": {}
+            }
+        },
+        "OperandB": {
+            "OperandType": "Constant",
+            "Constant": 50,
+            "StockAttribute": {},
+            "Indicators": {},
+            "Math": {
+                "StockAttribute": {},
+                "Indicators": {}
+            }
+        }
+    },
+
+    {
+        "id": 1,
+        "type": "filter",
+        "Operation": "cb",
+        "Action": "Long_Exit",
+        "Operand": {
+            "OperandType": "indicator",
+            "StockAttribute": {
+                "Timeframe": "1M"
+            },
+            "Indicators": {
+                "Timeframe": "1M",
+                "Variables": [
+                    14
+                ],
+                "Attribute": "rsi"
+            },
+            "Math": {
+                "StockAttribute": {},
+                "Indicators": {}
+            }
+        },
+        "OperandB": {
+            "OperandType": "Constant",
+            "Constant": 45,
+            "StockAttribute": {},
+            "Indicators": {},
+            "Math": {
+                "StockAttribute": {},
+                "Indicators": {}
+            }
+        }
+    }
+
+]
