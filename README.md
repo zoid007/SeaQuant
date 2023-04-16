@@ -24,6 +24,6 @@ Features
 - <strike>Drag and Drop Builder</strike>
 * <strike>Backtest Engine</strike>
 + CLI Strategy Builder (Partially Done)
-- Backtest Report Analysis
+- Backtest Report Analysis (Partially Done)
 * Hyper parameter Optimization & Multi-asset and Multi-timefram backtesting
 + Deploying bot to perform automated trades / Send webhooks
