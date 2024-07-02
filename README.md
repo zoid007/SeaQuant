@@ -16,7 +16,7 @@ Overall, SeaQuant provides traders with a powerful toolset for building, testing
 
 
 
-![App Screenshot](https://s11.gifyu.com/images/one.gif)
+![App Screenshot](https://raw.githubusercontent.com/zoid007/SeaQuant/main/assets/one.gif)
 
 
 
